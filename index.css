@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("blogPics/IndexBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family:cursive;;
+    font-weight: bold;
+}
+ul li{
+    position: relative;
+    margin: 0px 30px;
+    display: inline;
+    text-transform: uppercase;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    bottom: -8px;
+    background-color: white;
+}
+ul li:hover::before{
+    width: 100%;
+}
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+h1{
+    padding-top: 210px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family:  fantasy;
+}
+span{
+    font-family: Lucida Handwriting;
+}
+.return{
+    margin-left: 580px;
+}
+.return a{
+    color: white;
+    font-size: 20px;
+    background: green;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: cursive;
+}

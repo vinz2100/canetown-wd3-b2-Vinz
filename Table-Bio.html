@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioTable</title>
+<!-- Css -->
+<style>
+
+body{
+    margin-top: .5in;
+    margin-bottom: .5in;
+}
+table{
+    background-color: #93e5e1;
+    margin-right: auto;
+    margin-left: auto;
+    padding: .3in;
+    border: 2px solid black;
+    
+}
+tr, td{
+    border: 1px solid black;
+}
+tr, th, td{
+    font-size: 15px;
+    font-family: calibri;
+    border-collapse: collapse;
+}
+#r1{
+    height: 50px;
+}
+#r2c1{
+    vertical-align: top;
+}
+span{
+    float: right;
+}
+#r17c1{
+    vertical-align: top;
+}
+#r14c1{
+    width: 60px;
+}
+#r14c2{
+    width: 170px;
+}
+#r17c2 ,#r18c1, #r19c1, #r20c1, #r21c1{
+    height: 20px;
+}
+#r3c1{
+    width: 120px;
+}
+#r3c2{
+    width: 140px;
+}
+#r14c6{
+    width: 100px;
+}
+#r2c2{
+    height: 20px;
+}
+#int1, #int3, #int4, #int5, #int9, #int10, #int14, #int15, #int16, #int17, #int18, #int19, #int20, #int21{
+    height: 18px;
+    width: 478px;
+    border: 0; 
+  
+}
+#int6, #int7, #int8{
+    height: 18px;
+    width: 706px;
+    border: 0;
+}
+#int4, #int10, #int11, #int12, #int13, #int14{
+    height: 36px;
+}
+#int12{
+    width: 136px;
+    border: 0;
+}
+#int11{
+    width: 166px;
+    border: 0;
+}
+#int13{
+    width: 96px;
+    border: 0;
+}
+#int15{
+    height: 58px;
+}
+#int2{
+    text-transform: uppercase;
+    width: 478px;
+    border: 0; 
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}  
+</style>
+</head>
+<body>
+    <a href="programs.php">Back</a>
+<table>
+    <tr id="r1">
+        <th id="r1c1" colspan="6">
+            <h2>BIODATA DATA FORMAT</h2>
+        </th>
+    </tr>
+    <tr id="r2">
+        <td id="r2c1" rowspan="2" colspan="2"><b>Name <span>:</span></b></td>
+        <td id="r2c2" colspan="4" ><input type="text" id="int1"></td>
+    </tr>
+    <tr id="r3">
+        <td id="r3c1"><b>(Surname)</b></td>
+        <td id="r3c2"><b>(First Name)</b></td>
+        <td id="r3c3" colspan="2"><b>(Any Other Name)</b></td>
+    </tr>
+    <tr id="r4">
+        <td id="r4c1" colspan="2"><b>Name as it should be printed <span>:</span></b></td>
+        <td id="r4c2" colspan="4"><input type="text" id="int2"></td>
+    </tr>
+    <tr id="r5">
+        <td id="r5c1" colspan="2"><b>Date of Birth <span>:</span></b></td>
+        <td id="r5c2" colspan="4"><input type="text" id="int3"></td>
+    
+    </tr>
+    <tr id="r6">
+        <td id="r6c1" colspan="2"><b> Education Qualification together  <span>:</span>
+                                  <br>with year in which obtained.</b></td>
+        <td id="65c2" colspan="4"><input type="text" id="int4"></td>
+    </tr>
+    <tr id="r7">
+        <td id="r7c1" colspan="2"><b>Experience <span>:</span></b></td>
+        <td id="r7c2" colspan="4"><input type="text" id="int5"></td>
+       
+    </tr>
+    <tr id="r8">
+        <td id="r8c1" colspan="2"><b>Name of Organization</b></td>
+        <td id="r8c2"><b>Period</b></td>
+        <td id="r8c3"><b>Designation</b></td>
+        <td id="r8c4" colspan="2"><b>Type of Work</b></td>
+    </tr>
+    <tr id="r9">
+        <td id="r9c1" colspan="6">1. <input type="text" id="int6"></td>
+       
+    </tr>
+    <tr id="r10">
+        <td id="r10c1" colspan="6">2. <input type="text" id="int7"></td>
+       
+    </tr>
+    <tr id="11">
+        <td id="r11c1" colspan="6">3. <input type="text" id="int8"></td>
+    </tr>
+    <tr id="r12">
+        <td id="r12c1" colspan="2"><b>Designation in the Organization <span>:</span></b></td>
+        <td id="r12c2" colspan="4"><input type="text" id="int9"></td>
+    </tr>
+    <tr id="r13">
+        <td id="r13c1" colspan="2"><b> Full Name and Address of the <span>:</span> 
+                                   <br>Organization</b></td></td>
+        <td id="r13c2" colspan="4"><input type="text" id="int10"></td>
+    
+    </tr>
+    <tr id="r14">
+        <td id="r14c1"><b> Fax No:</b></td>
+        <td id="r14c2"><input type="text" id="int11"></td>
+        <td id="r14c3"><b> E-mail:</b></td>
+        <td id="r14c4"><input type="text" id="int12"></td>
+        <td id="r14c5"><b> Telephone Nos.<br>Extn.</b></td>
+        <td id="r14c6"><input type="text" id="int13"></td>
+    </tr>
+    <tr id="r15">
+        <td id="r15c1" colspan="2"><b> Membership of Professional:
+                                   <br> Institutions</b></td>
+        <td id="r15c2" colspan="4"><input type="text" id="int14"></td>
+     
+    </tr>
+    <tr id="r16">
+        <td id="r16c1" colspan="2"><b>Technical/Professional bodies <span>:</span>
+                                   <br>on which represented 
+                                   <br> (lSl/lEC/CIGRE etc.) </b></td>
+        <td id="r16c2" colspan="4"><input type="text" id="int15"></td>
+       
+    </tr>
+    <tr id="r17">
+        <td id="r17c1" colspan="2" rowspan="5"><b>Residential Address <span>:</span></b></td>
+        <td id="r17c2" colspan="4"><input type="text" id="int16"></td>
+    </tr>
+    <tr id="r18">
+        <td id="r18c1" colspan="4"><input type="text" id="int17"></td>
+    </tr>
+    <tr id="r19">
+        <td id="r19c1" colspan="4"><input type="text" id="int18"></td>
+        
+    </tr>
+    <tr id="r20">
+        <td id="r20c1" colspan="4"><input type="text" id="int19"></td>
+       
+    </tr>
+    <tr id="r21">
+        <td id="r21c1" colspan="4"><input type="text" id="int20"></td>
+        
+    </tr>
+    <tr id="r22">
+        <td id="r22c1" colspan="2"><b> Residential Telephone No <span>:</span></b></td>
+        <td id="r22c2" colspan="4"><input type="text" id="int21"></td>
+        
+    </tr>
+</table>
+
+</body>
+</html>

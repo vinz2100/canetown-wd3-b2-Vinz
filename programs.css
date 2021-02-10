@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("blogPics/IndexBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family:cursive;;
+    font-weight: bold;
+}
+ul li{
+    position: relative;
+    margin: 0px 30px;
+    display: inline;
+    text-transform: uppercase;
+}
+ul li::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    bottom: -8px;
+    background-color: black;
+}
+ul li:hover::before{
+    width: 100%;
+}
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+h1{
+    padding-top: 210px;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family:  fantasy;
+}
+span{
+    color: white;
+    font-family: Lucida Handwriting;
+}
+.container{
+    background-color: wheat;
+    margin: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    padding: 30px;
+    border: double 4px red;
+}
+h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  
+}
+.container ul{
+    padding-bottom: 10px;
+}
+table{
+    margin: auto;
+    border: dotted;
+}
+td{
+    padding: 10px;
+}
